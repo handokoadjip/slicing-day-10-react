@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800;900&display=swap');
+
+html,
+body {
+	overflow-x: hidden
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #fffffd;
+	color: #fffffd;
+}
+
+a {
+	color: #fffffd !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ddd;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
+}
+
+/* 
+------------------------------------------- 
+	UTILITY 
+-------------------------------------------
+*/
+.pointer {
+	cursor: pointer;
+}
+
+.leading-not {
+	line-height: 0.8;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.leading-snug {
+	line-height: 1.375;
+}
+
+.leading-normal {
+	line-height: 1.5;
+}
+
+.leading-relaxed {
+	line-height: 1.625;
+}
+
+.leading-loose {
+	line-height: 2;
+}
+
+.v-invisible {
+	visibility: hidden;
+}
+
+.fs-7 {
+	font-size: 0.75rem;
+}
+
+.fw-bolder {
+	font-weight: 900 !important;
+}
+
+.fw-medium {
+	font-weight: 600;
+}
+
+.fs-6rem {
+	font-size: 6rem;
+}
+
+.p-8 {
+	padding: 7.5rem;
+}
+
+.py-13 {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+}
+
+.pe-6 {
+	padding-right: 4.5rem;
+}
+
+.mp-0 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.ls-7px {
+	letter-spacing: 7px;
+}
+
+.z-999 {
+	z-index: 999;
+}
+
+.bg-fade-black-1 {
+	background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.btn-border {
+	color: #fffffd !important;
+	background-color: transparent;
+	border: 2px solid #fffffd;
+}
+
+.btn-border:hover {
+	color: #ddd !important;
+	background-color: transparent;
+	border: 2px solid #ddd;
+}
+
+.btn-border-black {
+	color: #000 !important;
+	background-color: transparent;
+	border: 2px solid #000;
+}
+
+.btn-border-black:hover {
+	color: #252525 !important;
+	background-color: transparent;
+	border: 2px solid #252525;
+}
+
+.h-image-300px {
+	height: 300px;
+	object-fit: cover;
+}
+
+.o-0 {
+	opacity: 0;
+}
+
+.image-hover {
+	transition: .2s;
+}
+
+.image-hover::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 0, 0, 0.3);
+}
+
+.image-hover:hover {
+	opacity: 1;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-fade-1 {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.text-fade-black-1 {
+	color: rgba(0, 0, 0, .5) !important;
+}
+
+.object-cover {
+	object-fit: cover;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+/* 
+------------------------------------------- 
+	SECTION 1 
+-------------------------------------------
+*/
+.bg-image-1 {
+	background-image: url(../image/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: 70%;
+}
+
+/* 
+------------------------------------------- 
+	BREAKPOINT
+-------------------------------------------
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/* 
+	------------------------------------------- 
+		UTILITY 
+	-------------------------------------------
+	*/
+	.w-lg-50 {
+		width: 50% !important;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
